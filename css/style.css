@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#guruhdoshlarim{
+    background-color: azure;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.jamoa-title{
+    text-align: center;
+}
+
+.jamoa-cards{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.jamoa-card{
+    background-image: url(../image.png);
+}
+
+.card2{
+    background-image: url(../image.png);
+}
+
+.card3{
+    background-image: url(../image.png);
+}
+
+.card4{
+    background-image: url(../image.png);
+}
+
+.card5{
+    background-image: url(../image.png);
+}
+
+.card6{
+    background-image: url(../image.png);
+}
+
+.jamoa-card{
+    width: 100px;
+    height: 300px;
+    border-radius: 20px;
+    padding: 20px;
+    cursor: pointer;
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: all 0.4s linear;
+}
+
+.card1{
+    width: 300px;
+}
+
+.jamoa-card:hover{
+    width: 300px;
+}
+
+.jamoa-cards:hover .card1{
+    width: 100px;
+}
